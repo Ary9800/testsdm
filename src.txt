@@ -1,0 +1,84 @@
+Non-functional requirements in an SRS document (software requirements specification) specify the quality attributes of a software system, such as responsiveness, usability, and reliability.
+
+As functional requirements indicate what a system must do, non-functional requirements support them and determine how the system must perform.
+
+These features are usually expressed as constraints or criteria that define a level of freedom for developers or users.
+
+Although non-functional requirements may seem a bit subtler, they are still as important as functional features, epics, and user stories.
+
+Different types of non-functional requirements 
+Performance
+System performance is the most important quality in non-functional requirements and affects almost all the other preceding ones.
+
+Furthermore, reliability, availability, and maintainability (RAM) features fall exclusively under these requirements.
+
+System performance defines how fast a system can respond to a particular user’s action under a certain workload.
+
+Reliability
+Reliability is the probability and percentage of the software performing without failure for a specific number of uses or amount of time.
+
+Availability
+This feature defines the amount of time the system is running, the time it takes to repair a fault, and the time between lapses.
+
+Maintainability
+This feature indicates the average time and ease and rapidity with which a system can be restored after a failure.
+
+Recoverability
+Recoverability is the ability to recover from a crash or a failure in the system and returning to full operations.
+
+Capacity
+This feature indicates your system’s storage capacity, which is dependant on its type and characteristics.
+
+Serviceability
+This feature indicates how easy it is to perform service when necessary.
+
+Security
+Security measures ensure your software’s safety against espionage or sabotage.
+
+These features are necessary even for stand-alone systems; you don’t want anyone to have access to your sensitive data.
+
+Manageability
+This feature is defined as the ability to control a system efficiently and keep it fully operational.
+
+Environmental
+These factors concern the software’s environment. 
+
+Will the system need to operate 24/7? What are the external factors that might affect it? (like snow, rain, and humidity. S)
+
+Data integrity
+Data integrity refers to maintaining and assuring data accuracy and consistency over its entire lifecycle.
+
+If this factor is corrupted, data is lost due to a database error.
+
+Interoperability
+All system components must follow a common and standard set of exchange formats to exchange data; the lack of interoperability happens when people do not follow standards.
+
+Usability 
+This feature concerns the users; it indicates how effectively they can learn and use a system.
+
+If you want to learn more about non-functional requirements, you can check out Requirements Writing for System Engineering by George Koelsch on Google Books.
+
+Or visit altexsoft’s article about non-functional requirements.
+
+Non-functional requirements examples
+The following examples are taken from our estimation document sample. You can download the full PDF for free on WINaTALENT’s website.
+
+The project is a local job-finding website where applicants create a profile, upload their resume, have it reviewed, view available job opportunities, and apply for them.
+
+The other party is the employers who purchase accounts to post new jobs and receive requests and resumes.
+
+Below are the product’s non-functional requirements:
+
+Performance: The website’s load time should not be more than one second for users.
+Reliability: Applicants can access their resume 98% of the time without failure.
+Availability: Employers can post jobs on the website throughout the week at any time during the day. In the case of unplanned system downtime, all features will be available again after one working day.
+Maintainability: If the automated email services become unavailable, they can be under maintenance for approximately three hours.
+Recoverability: If a major incident happens on the website and, the business must take measures to go back to being fully operational within three days.
+Capacity: Up to 500 applicants can request for a resume review. Up to 1,000,000 resumes can be stored.
+Serviceability: The applicants’ automated emails can be edited and replaced by uploading an XML file; there’s no need to recompile any code.
+Security: Only the users with the role “site admin” can view the applicant’s verified phone number.
+Manageability: When editing the code for applicants’ profile pages, the rest of the site stays up and running.
+Environmental: Resume reviews are performed Monday through Friday from 9 AM to 6 PM.
+Data integrity: The system shall maintain data integrity by keeping backups of all updates to the database for every record transaction.
+Interoperability: The website must follow the service-oriented architecture.
+Usability: The website’s interface has to be user-friendly and easy to use.
